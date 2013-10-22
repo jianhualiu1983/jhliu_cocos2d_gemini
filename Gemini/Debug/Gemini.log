@@ -1,0 +1,91 @@
+﻿Build started 10/21/2013 9:36:15 PM.
+     1>Project "C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Gemini\Gemini.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\CL.exe /c /I"C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Gemini\\" /IDebug\ /I"C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Gemini\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D PSAPI_VERSION=2 /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\Gemini.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata\Windows.winmd" /analyze- /errorReport:prompt AppDelegate.cpp Cell.cpp GameManager.cpp IOManager.cpp main.cpp Map.cpp pch.cpp ScoreManager.cpp SolveWizard.cpp
+         AppDelegate.cpp
+         Cell.cpp
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\cell.cpp(1): warning C4627: '#include "Cell.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\cell.cpp(80): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(1): warning C4627: '#include "AppDelegate.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(3): warning C4627: '#include <vector>': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(4): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(6): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(7): warning C4627: '#include "AppMacros.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\appdelegate.cpp(96): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+         GameManager.cpp
+         IOManager.cpp
+         main.cpp
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\main.cpp(1): warning C4627: '#include "main.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\main.cpp(2): warning C4627: '#include "AppDelegate.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\main.cpp(3): warning C4627: '#include "CCEGLView.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\main.cpp(21): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(1): warning C4627: '#include "IOManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(2): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(3): warning C4627: '#include "SolveWizard.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(4): warning C4627: '#include "Map.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(5): warning C4627: '#include "Cell.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\iomanager.cpp(78): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+         Map.cpp
+         pch.cpp
+         ScoreManager.cpp
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(1): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(2): warning C4627: '#include "AppMacros.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(4): warning C4627: '#include "event_dispatcher/CCEventListenerTouch.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(6): warning C4627: '#include "Map.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(7): warning C4627: '#include "SolveWizard.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(8): warning C4627: '#include "IOManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(9): warning C4627: '#include "Cell.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(10): warning C4627: '#include "ScoreManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\gamemanager.cpp(53): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\map.cpp(1): warning C4627: '#include "Map.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\map.cpp(2): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\map.cpp(3): warning C4627: '#include "SolveWizard.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\map.cpp(4): warning C4627: '#include "IOManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\map.cpp(222): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\scoremanager.cpp(1): warning C4627: '#include "ScoreManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\scoremanager.cpp(2): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\scoremanager.cpp(16): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+         SolveWizard.cpp
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\solvewizard.cpp(1): warning C4627: '#include "SolveWizard.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\solvewizard.cpp(2): warning C4627: '#include "GameManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\solvewizard.cpp(3): warning C4627: '#include "ScoreManager.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\solvewizard.cpp(4): warning C4627: '#include "Map.h"': skipped when looking for precompiled header use
+                 Add directive to 'pch.h' or rebuild precompiled header
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\solvewizard.cpp(199): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\pch.cpp(1): fatal error C1854: cannot overwrite information formed during creation of the precompiled header in object file: 'c:\users\jianhliu\desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\cpp\cocos2dx-2.1.0-wp8-2.0-alpha\gemini\debug\pch.obj'
+     1>Done Building Project "C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Gemini\Gemini.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.71

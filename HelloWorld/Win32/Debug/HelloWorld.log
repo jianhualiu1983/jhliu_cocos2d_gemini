@@ -1,0 +1,1687 @@
+﻿Build started 10/21/2013 9:36:16 PM.
+     1>Project "C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\HelloWorld\HelloWorld.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Win32\Debug\HelloWorld\HelloWorld.exe" /VERBOSE /INCREMENTAL /NOLOGO /LIBPATH:..\Cocos2dWindowsPhone\libraries\x86 /LIBPATH:..\Win32\Debug\Cocos2dWindowsPhone /LIBPATH:..\Win32\Debug\CocosDenshionWindowsPhone freetype.lib dxguid.lib xaudio2.lib dxgi.lib uuid.lib d3d11.lib zlib.lib libjpeg.lib libpng.lib Cocos2dWindowsPhone.lib WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Win32\Debug\HelloWorld\HelloWorld.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /WINMD /WINMDFILE:"C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Win32\Debug\HelloWorld\cocos2d.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\AppDelegate.obj
+         Win32\Debug\cocos2dorig.obj
+         Win32\Debug\HelloWorldScene.obj
+         Win32\Debug\pch.obj
+         Processed /NODEFAULTLIB:ole32.lib
+         Processed /NODEFAULTLIB:ole32.lib
+         
+         Invoking LINK.EXE:
+          /ERRORREPORT:PROMPT @C:\Users\jianhliu\AppData\Local\Temp\tmpe3b896cab7bd47c3a1b7fd7dce8434bc.rsp
+          /WINMD:ONLY
+          /nologo
+         Processed /NODEFAULTLIB:ole32.lib
+         
+         Starting pass 1
+         Processed /DEFAULTLIB:vccorlibd.lib
+         Processed /DEFAULTLIB:msvcprtd
+         Processed /DEFAULTLIB:uuid.lib
+         Processed /DEFAULTLIB:MSVCRTD
+         Processed /DEFAULTLIB:OLDNAMES
+         
+         Searching libraries
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\freetype.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxguid.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\xaudio2.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxgi.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\uuid.lib:
+               Found _IID_IContextCallback
+                 Referenced in HelloWorldScene.obj
+                 Loaded uuid.lib(ctxtcall_i.obj)
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\d3d11.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\zlib.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libjpeg.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libpng.lib:
+             Searching ..\Win32\Debug\Cocos2dWindowsPhone\Cocos2dWindowsPhone.lib:
+               Found "__declspec(dllimport) void __cdecl cocos2d::CCLog(char const *,...)" (__imp_?CCLog@cocos2d@@YAXPBDZZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCEGLView::CCEGLView(void)" (__imp_??0CCEGLView@cocos2d@@QAE@XZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCEGLView::setDesignResolution(int,int)" (__imp_?setDesignResolution@CCEGLView@cocos2d@@QAEXHH@Z)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: static class cocos2d::CCEGLView * __cdecl cocos2d::CCEGLView::sharedOpenGLView(void)" (__imp_?sharedOpenGLView@CCEGLView@cocos2d@@SAPAV12@XZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCApplication::CCApplication(void)" (__imp_??0CCApplication@cocos2d@@QAE@XZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: virtual __thiscall cocos2d::CCApplication::~CCApplication(void)" (__imp_??1CCApplication@cocos2d@@UAE@XZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCDirector::setOpenGLView(class cocos2d::CCEGLView *)" (__imp_?setOpenGLView@CCDirector@cocos2d@@QAEXPAVCCEGLView@2@@Z)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCDirector::runWithScene(class cocos2d::CCScene *)" (__imp_?runWithScene@CCDirector@cocos2d@@QAEXPAVCCScene@2@@Z)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCDirector::pause(void)" (__imp_?pause@CCDirector@cocos2d@@QAEXXZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCDirector::resume(void)" (__imp_?resume@CCDirector@cocos2d@@QAEXXZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: void __thiscall cocos2d::CCDirector::setDeviceOrientation(enum cocos2d::ccDeviceOrientation)" (__imp_?setDeviceOrientation@CCDirector@cocos2d@@QAEXW4ccDeviceOrientation@2@@Z)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: static class cocos2d::CCDirector * __cdecl cocos2d::CCDirector::sharedDirector(void)" (__imp_?sharedDirector@CCDirector@cocos2d@@SAPAV12@XZ)
+                 Referenced in AppDelegate.obj
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual enum cocos2d::DeviceResolutionInPixels __thiscall cocos2d::CCApplication::getdeviceResolutionInPixels(void)" (?getdeviceResolutionInPixels@CCApplication@cocos2d@@UAE?AW4DeviceResolutionInPixels@2@XZ)
+                 Referenced in AppDelegate.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) struct Windows::ApplicationModel::Core::IFrameworkView ^ __cdecl cocos2d::getSharedCCApplicationFrameworkView(void)" (__imp_?getSharedCCApplicationFrameworkView@cocos2d@@YAP$AAUIFrameworkView@Core@ApplicationModel@Windows@@XZ)
+                 Referenced in cocos2dorig.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCPoint::CCPoint(float,float)" (__imp_??0CCPoint@cocos2d@@QAE@MM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: class cocos2d::CCObject * __thiscall cocos2d::CCObject::autorelease(void)" (__imp_?autorelease@CCObject@cocos2d@@QAEPAV12@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: static class cocos2d::CCSprite * __cdecl cocos2d::CCSprite::create(char const *)" (__imp_?create@CCSprite@cocos2d@@SAPAV12@PBD@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: static class cocos2d::CCLabelTTF * __cdecl cocos2d::CCLabelTTF::create(char const *,char const *,float)" (__imp_?create@CCLabelTTF@cocos2d@@SAPAV12@PBD0M@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: bool __thiscall cocos2d::CCLayer::init(void)" (__imp_?init@CCLayer@cocos2d@@QAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCLayerColor::CCLayerColor(void)" (__imp_??0CCLayerColor@cocos2d@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: virtual __thiscall cocos2d::CCLayerColor::~CCLayerColor(void)" (__imp_??1CCLayerColor@cocos2d@@UAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: static class cocos2d::CCScene * __cdecl cocos2d::CCScene::create(void)" (__imp_?create@CCScene@cocos2d@@SAPAV12@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: class cocos2d::CCSize __thiscall cocos2d::CCDirector::getWinSize(void)" (__imp_?getWinSize@CCDirector@cocos2d@@QAE?AVCCSize@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::addChild(class cocos2d::CCNode *)" (?addChild@CCNode@cocos2d@@UAEXPAV12@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::addChild(class cocos2d::CCNode *,int)" (?addChild@CCNode@cocos2d@@UAEXPAV12@H@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::addChild(class cocos2d::CCNode *,int,int)" (?addChild@CCNode@cocos2d@@UAEXPAV12@HH@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayer::ccTouchBegan(class cocos2d::CCTouch *,class cocos2d::CCEvent *)" (?ccTouchBegan@CCLayer@cocos2d@@UAE_NPAVCCTouch@2@PAVCCEvent@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::ccTouchCancelled(class cocos2d::CCTouch *,class cocos2d::CCEvent *)" (?ccTouchCancelled@CCLayer@cocos2d@@UAEXPAVCCTouch@2@PAVCCEvent@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::ccTouchEnded(class cocos2d::CCTouch *,class cocos2d::CCEvent *)" (?ccTouchEnded@CCLayer@cocos2d@@UAEXPAVCCTouch@2@PAVCCEvent@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::ccTouchMoved(class cocos2d::CCTouch *,class cocos2d::CCEvent *)" (?ccTouchMoved@CCLayer@cocos2d@@UAEXPAVCCTouch@2@PAVCCEvent@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::ccTouchesCancelled(class cocos2d::CCSet *,class cocos2d::CCEvent *)" (?ccTouchesCancelled@CCLayer@cocos2d@@UAEXPAVCCSet@2@PAVCCEvent@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::cleanup(void)" (?cleanup@CCNode@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCObject * __thiscall cocos2d::CCCopying::copyWithZone(class cocos2d::CCZone *)" (?copyWithZone@CCCopying@cocos2d@@UAEPAVCCObject@2@PAVCCZone@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::didAccelerate(struct cocos2d::CCAcceleration *)" (?didAccelerate@CCLayer@cocos2d@@UAEXPAUCCAcceleration@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::draw(void)" (?draw@CCLayerColor@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCPoint const & __thiscall cocos2d::CCNode::getAnchorPoint(void)" (?getAnchorPoint@CCNode@cocos2d@@UAEABVCCPoint@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCPoint const & __thiscall cocos2d::CCNode::getAnchorPointInPixels(void)" (?getAnchorPointInPixels@CCNode@cocos2d@@UAEABVCCPoint@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual struct cocos2d::_ccBlendFunc __thiscall cocos2d::CCLayerColor::getBlendFunc(void)" (?getBlendFunc@CCLayerColor@cocos2d@@UAE?AU_ccBlendFunc@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCCamera * __thiscall cocos2d::CCNode::getCamera(void)" (?getCamera@CCNode@cocos2d@@UAEPAVCCCamera@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCArray * __thiscall cocos2d::CCNode::getChildren(void)" (?getChildren@CCNode@cocos2d@@UAEPAVCCArray@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual struct cocos2d::_ccColor3B const & __thiscall cocos2d::CCLayerColor::getColor(void)" (?getColor@CCLayerColor@cocos2d@@UAEABU_ccColor3B@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCSize const & __thiscall cocos2d::CCNode::getContentSize(void)" (?getContentSize@CCNode@cocos2d@@UAEABVCCSize@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCSize const & __thiscall cocos2d::CCNode::getContentSizeInPixels(void)" (?getContentSizeInPixels@CCNode@cocos2d@@UAEABVCCSize@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCGridBase * __thiscall cocos2d::CCNode::getGrid(void)" (?getGrid@CCNode@cocos2d@@UAEPAVCCGridBase@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCNode::getIsRelativeAnchorPoint(void)" (?getIsRelativeAnchorPoint@CCNode@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual unsigned char __thiscall cocos2d::CCLayerColor::getOpacity(void)" (?getOpacity@CCLayerColor@cocos2d@@UAEEXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual unsigned int __thiscall cocos2d::CCNode::getOrderOfArrival(void)" (?getOrderOfArrival@CCNode@cocos2d@@UAEIXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCNode * __thiscall cocos2d::CCNode::getParent(void)" (?getParent@CCNode@cocos2d@@UAEPAV12@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCPoint const & __thiscall cocos2d::CCNode::getPosition(void)" (?getPosition@CCNode@cocos2d@@UAEABVCCPoint@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCPoint const & __thiscall cocos2d::CCNode::getPositionInPixels(void)" (?getPositionInPixels@CCNode@cocos2d@@UAEABVCCPoint@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getRotation(void)" (?getRotation@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getScaleX(void)" (?getScaleX@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getScaleY(void)" (?getScaleY@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual class cocos2d::CCScheduler * __thiscall cocos2d::CCNode::getScheduler(void)" (?getScheduler@CCNode@cocos2d@@UAEPAVCCScheduler@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getSkewX(void)" (?getSkewX@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getSkewY(void)" (?getSkewY@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual int __thiscall cocos2d::CCNode::getTag(void)" (?getTag@CCNode@cocos2d@@UAEHXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual int __thiscall cocos2d::CCLayer::getTouchMode(void)" (?getTouchMode@CCLayer@cocos2d@@UAEHXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual int __thiscall cocos2d::CCLayer::getTouchPriority(void)" (?getTouchPriority@CCLayer@cocos2d@@UAEHXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void * __thiscall cocos2d::CCNode::getUserData(void)" (?getUserData@CCNode@cocos2d@@UAEPAXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual float __thiscall cocos2d::CCNode::getVertexZ(void)" (?getVertexZ@CCNode@cocos2d@@UAEMXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual int __thiscall cocos2d::CCNode::getZOrder(void)" (?getZOrder@CCNode@cocos2d@@UAEHXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::ignoreAnchorPointForPosition(bool)" (?ignoreAnchorPointForPosition@CCNode@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayerColor::initWithColor(struct cocos2d::_ccColor4B const &)" (?initWithColor@CCLayerColor@cocos2d@@UAE_NABU_ccColor4B@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayerColor::initWithColor(struct cocos2d::_ccColor4B const &,float,float)" (?initWithColor@CCLayerColor@cocos2d@@UAE_NABU_ccColor4B@2@MM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayer::isAccelerometerEnabled(void)" (?isAccelerometerEnabled@CCLayer@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCObject::isEqual(class cocos2d::CCObject const *)" (?isEqual@CCObject@cocos2d@@UAE_NPBV12@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCNode::isIgnoreAnchorPointForPosition(void)" (?isIgnoreAnchorPointForPosition@CCNode@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayer::isKeypadEnabled(void)" (?isKeypadEnabled@CCLayer@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayerColor::isOpacityModifyRGB(void)" (?isOpacityModifyRGB@CCLayerColor@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCNode::isRunning(void)" (?isRunning@CCNode@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCLayer::isTouchEnabled(void)" (?isTouchEnabled@CCLayer@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual bool __thiscall cocos2d::CCNode::isVisible(void)" (?isVisible@CCNode@cocos2d@@UAE_NXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCKeypadDelegate::keyBackClicked(void)" (?keyBackClicked@CCKeypadDelegate@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCKeypadDelegate::keyMenuClicked(void)" (?keyMenuClicked@CCKeypadDelegate@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::onEnter(void)" (?onEnter@CCLayer@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::onEnterTransitionDidFinish(void)" (?onEnterTransitionDidFinish@CCLayer@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::onExit(void)" (?onExit@CCLayer@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::onExitTransitionDidStart(void)" (?onExitTransitionDidStart@CCNode@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::registerScriptHandler(int)" (?registerScriptHandler@CCNode@cocos2d@@UAEXH@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::registerWithTouchDispatcher(void)" (?registerWithTouchDispatcher@CCLayer@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::removeAllChildrenWithCleanup(bool)" (?removeAllChildrenWithCleanup@CCNode@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::removeChild(class cocos2d::CCNode *,bool)" (?removeChild@CCNode@cocos2d@@UAEXPAV12@_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::reorderChild(class cocos2d::CCNode *,int)" (?reorderChild@CCNode@cocos2d@@UAEXPAV12@H@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setAccelerometerEnabled(bool)" (?setAccelerometerEnabled@CCLayer@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setAccelerometerInterval(double)" (?setAccelerometerInterval@CCLayer@cocos2d@@UAEXN@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setAnchorPoint(class cocos2d::CCPoint const &)" (?setAnchorPoint@CCNode@cocos2d@@UAEXABVCCPoint@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::setBlendFunc(struct cocos2d::_ccBlendFunc)" (?setBlendFunc@CCLayerColor@cocos2d@@UAEXU_ccBlendFunc@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::setColor(struct cocos2d::_ccColor3B const &)" (?setColor@CCLayerColor@cocos2d@@UAEXABU_ccColor3B@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::setContentSize(class cocos2d::CCSize const &)" (?setContentSize@CCLayerColor@cocos2d@@UAEXABVCCSize@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setContentSizeInPixels(class cocos2d::CCSize const &)" (?setContentSizeInPixels@CCNode@cocos2d@@UAEXABVCCSize@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setGrid(class cocos2d::CCGridBase *)" (?setGrid@CCNode@cocos2d@@UAEXPAVCCGridBase@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setIsRelativeAnchorPoint(bool)" (?setIsRelativeAnchorPoint@CCNode@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setKeypadEnabled(bool)" (?setKeypadEnabled@CCLayer@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::setOpacity(unsigned char)" (?setOpacity@CCLayerColor@cocos2d@@UAEXE@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayerColor::setOpacityModifyRGB(bool)" (?setOpacityModifyRGB@CCLayerColor@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setOrderOfArrival(unsigned int)" (?setOrderOfArrival@CCNode@cocos2d@@UAEXI@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setParent(class cocos2d::CCNode *)" (?setParent@CCNode@cocos2d@@UAEXPAV12@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setPosition(class cocos2d::CCPoint const &)" (?setPosition@CCNode@cocos2d@@UAEXABVCCPoint@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setPositionInPixels(class cocos2d::CCPoint const &)" (?setPositionInPixels@CCNode@cocos2d@@UAEXABVCCPoint@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setRotation(float)" (?setRotation@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setScaleX(float)" (?setScaleX@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setScaleY(float)" (?setScaleY@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setScheduler(class cocos2d::CCScheduler *)" (?setScheduler@CCNode@cocos2d@@UAEXPAVCCScheduler@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setSkewX(float)" (?setSkewX@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setSkewY(float)" (?setSkewY@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setTag(int)" (?setTag@CCNode@cocos2d@@UAEXH@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setTouchEnabled(bool)" (?setTouchEnabled@CCLayer@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setTouchMode(enum cocos2d::ccTouchesMode)" (?setTouchMode@CCLayer@cocos2d@@UAEXW4ccTouchesMode@2@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCLayer::setTouchPriority(int)" (?setTouchPriority@CCLayer@cocos2d@@UAEXH@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setUserData(void *)" (?setUserData@CCNode@cocos2d@@UAEXPAX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setVertexZ(float)" (?setVertexZ@CCNode@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::setVisible(bool)" (?setVisible@CCNode@cocos2d@@UAEX_N@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::sortAllChildren(void)" (?sortAllChildren@CCNode@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::unregisterScriptHandler(void)" (?unregisterScriptHandler@CCNode@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCObject::update(float)" (?update@CCObject@cocos2d@@UAEXM@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "protected: virtual void __thiscall cocos2d::CCLayerColor::updateColor(void)" (?updateColor@CCLayerColor@cocos2d@@MAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "public: virtual void __thiscall cocos2d::CCNode::visit(void)" (?visit@CCNode@cocos2d@@UAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCSize::CCSize(float,float)" (__imp_??0CCSize@cocos2d@@QAE@MM@Z)
+                 Referenced in pch.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found "__declspec(dllimport) public: __thiscall cocos2d::CCRect::CCRect(float,float,float,float)" (__imp_??0CCRect@cocos2d@@QAE@MMMM@Z)
+                 Referenced in pch.obj
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found __IMPORT_DESCRIPTOR_Cocos2dWindowsPhone
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found __NULL_IMPORT_DESCRIPTOR
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+               Found Cocos2dWindowsPhone_NULL_THUNK_DATA
+                 Referenced in Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+                 Loaded Cocos2dWindowsPhone.lib(Cocos2dWindowsPhone.dll)
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\WindowsPhoneCore.lib:
+               Found __imp__QueryPerformanceCounter@4
+                 Referenced in cocos2dorig.obj
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+               Found __imp__QueryPerformanceFrequency@4
+                 Referenced in cocos2dorig.obj
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+               Found __imp__CoGetObjectContext@8
+                 Referenced in HelloWorldScene.obj
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __imp__CoMarshalInterThreadInterfaceInStream@12
+                 Referenced in HelloWorldScene.obj
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __imp__CoGetInterfaceAndReleaseStream@12
+                 Referenced in HelloWorldScene.obj
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-profile-l1-1-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-com-l1-1-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found api-ms-win-core-profile-l1-1-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-profile-l1-1-0.dll)
+               Found api-ms-win-core-com-l1-1-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\RuntimeObject.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\PhoneAppModelHost.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\vccorlibd.lib:
+               Found ___refMTAThread
+                 Referenced in cocos2dorig.obj
+                 Loaded vccorlibd.lib(tmmta.obj)
+               Found "__declspec(dllimport) void __stdcall __abi_FailFast(void)" (__imp_?__abi_FailFast@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "long __stdcall __winRT::__windowsCreateString(wchar_t const *,int,struct HSTRING__ * *)" (?__windowsCreateString@__winRT@@YGJPB_WHPAPAUHSTRING__@@@Z)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(compiler.obj)
+               Found "long __stdcall __winRT::__getActivationFactoryByPCWSTR(void *,class Platform::Guid &,void * *)" (?__getActivationFactoryByPCWSTR@__winRT@@YGJPAXAAVGuid@Platform@@PAPAX@Z)
+                 Referenced in cocos2dorig.obj
+                 Loaded vccorlibd.lib(activation.obj)
+               Found "public: __cdecl Platform::Object::Object(void)" (??0Object@Platform@@Q$AAA@XZ)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseNotImplementedException(void)" (__imp_?__abi_WinRTraiseNotImplementedException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseInvalidCastException(void)" (__imp_?__abi_WinRTraiseInvalidCastException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseNullReferenceException(void)" (__imp_?__abi_WinRTraiseNullReferenceException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseOperationCanceledException(void)" (__imp_?__abi_WinRTraiseOperationCanceledException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseFailureException(void)" (__imp_?__abi_WinRTraiseFailureException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseAccessDeniedException(void)" (__imp_?__abi_WinRTraiseAccessDeniedException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseOutOfMemoryException(void)" (__imp_?__abi_WinRTraiseOutOfMemoryException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseInvalidArgumentException(void)" (__imp_?__abi_WinRTraiseInvalidArgumentException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseOutOfBoundsException(void)" (__imp_?__abi_WinRTraiseOutOfBoundsException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseChangedStateException(void)" (__imp_?__abi_WinRTraiseChangedStateException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseClassNotRegisteredException(void)" (__imp_?__abi_WinRTraiseClassNotRegisteredException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseWrongThreadException(void)" (__imp_?__abi_WinRTraiseWrongThreadException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseDisconnectedException(void)" (__imp_?__abi_WinRTraiseDisconnectedException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseObjectDisposedException(void)" (__imp_?__abi_WinRTraiseObjectDisposedException@@YGXXZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) void __stdcall __abi_WinRTraiseCOMException(long)" (__imp_?__abi_WinRTraiseCOMException@@YGXJ@Z)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found ___Platform_CoCreateFreeThreadedMarshaler@8
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__CoCreateFreeThreadedMarshaler@8.obj)
+               Found "public: static void * __cdecl Platform::Details::Heap::Allocate(unsigned int)" (?Allocate@Heap@Details@Platform@@SAPAXI@Z)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: static void __cdecl Platform::Details::Heap::Free(void *)" (?Free@Heap@Details@Platform@@SAXPAX@Z)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: static void * __cdecl Platform::Details::Heap::AllocateException(unsigned int)" (?AllocateException@Heap@Details@Platform@@SAPAXI@Z)
+                 Referenced in cocos2dorig.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: static void __cdecl Platform::Details::Heap::FreeException(void *)" (?FreeException@Heap@Details@Platform@@SAXPAX@Z)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found ___Platform_WindowsDeleteString@4
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsDeleteString@4.obj)
+               Found ___Platform_WindowsDuplicateString@8
+                 Referenced in cocos2dorig.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsDuplicateString@8.obj)
+               Found ___Platform_CoTaskMemAlloc@4
+                 Referenced in cocos2dorig.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__CoTaskMemAlloc@4.obj)
+               Found ___Platform_CoTaskMemFree@4
+                 Referenced in cocos2dorig.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__CoTaskMemFree@4.obj)
+               Found ___Platform_memset
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__memset.obj)
+               Found "long __stdcall Platform::Details::ReCreateFromException(class Platform::Exception ^)" (?ReCreateFromException@Details@Platform@@YGJP$AAVException@2@@Z)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "void * __stdcall Platform::Details::GetIBoxArrayVtable(void *)" (?GetIBoxArrayVtable@Details@Platform@@YGPAXPAX@Z)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::Delegate::Delegate(void)" (??0Delegate@Platform@@Q$AAA@XZ)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::FailureException::FailureException(void)" (??0FailureException@Platform@@Q$AAA@XZ)
+                 Referenced in cocos2dorig.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::DisconnectedException::DisconnectedException(void)" (??0DisconnectedException@Platform@@Q$AAA@XZ)
+                 Referenced in cocos2dorig.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "struct __abi_Module * __abi_module" (?__abi_module@@3PAU__abi_Module@@A)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded vccorlibd.lib(init.obj)
+         Processed /DEFAULTLIB:runtimeobject.lib
+               Found "public: static class Platform::Exception ^ __cdecl Platform::Exception::CreateException(int)" (?CreateException@Exception@Platform@@SAP$AAV12@H@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) class Platform::Object ^ __stdcall __abi_details::__abi_cast_String_to_Object(class Platform::String ^)" (__imp_?__abi_cast_String_to_Object@__abi_details@@YGP$AAVObject@Platform@@P$AAVString@3@@Z)
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) class Platform::String ^ __stdcall __abi_details::__abi_cast_Object_to_String(bool,class Platform::Object ^)" (__imp_?__abi_cast_Object_to_String@__abi_details@@YGP$AAVString@Platform@@_NP$AAVObject@3@@Z)
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "__declspec(dllimport) class Platform::String ^ __stdcall __abi_details::__abi_ObjectToString(class Platform::Object ^,bool)" (__imp_?__abi_ObjectToString@__abi_details@@YGP$AAVString@Platform@@P$AAVObject@3@_N@Z)
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::ValueType::ValueType(void)" (??0ValueType@Platform@@Q$AAA@XZ)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::Enum::Enum(void)" (??0Enum@Platform@@Q$AAA@XZ)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found ___Platform_WindowsCreateString@12
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsCreateString@12.obj)
+               Found ___Platform_WindowsGetStringRawBuffer@8
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsGetStringRawBuffer@8.obj)
+               Found ___Platform_WindowsGetStringLen@4
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsGetStringLen@4.obj)
+               Found ___Platform_WindowsIsStringEmpty@4
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsIsStringEmpty@4.obj)
+               Found ___Platform_WindowsCompareStringOrdinal@12
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsCompareStringOrdinal@12.obj)
+               Found ___Platform_WindowsConcatString@12
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__WindowsConcatString@12.obj)
+               Found ___Platform_wcslen
+                 Referenced in pch.obj
+                 Loaded vccorlibd.lib(__Platform__wcslen.obj)
+               Found "public: virtual void __cdecl Platform::String::<Dispose>(void)" (?<Dispose>@String@Platform@@U$AAAXXZ)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Windows::UI::Xaml::GridLength::GridLength(double,enum Windows::UI::Xaml::GridUnitType)" (??0GridLength@Xaml@UI@Windows@@QAA@NW4GridUnitType@123@@Z)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found __IMPORT_DESCRIPTOR_vccorlib110d
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "long __stdcall GetIidsFn(int,unsigned long *,struct __s_GUID const *,class Platform::Guid * *)" (?GetIidsFn@@YGJHPAKPBU__s_GUID@@PAPAVGuid@Platform@@@Z)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "long __stdcall GetActivationFactoryByPCWSTR(void *,class Platform::Guid &,void * *)" (?GetActivationFactoryByPCWSTR@@YGJPAXAAVGuid@Platform@@PAPAX@Z)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "long __cdecl Platform::Details::InitializeData(int)" (?InitializeData@Details@Platform@@YAJH@Z)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "void __cdecl Platform::Details::UninitializeData(int)" (?UninitializeData@Details@Platform@@YAXH@Z)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found vccorlib110d_NULL_THUNK_DATA
+                 Referenced in vccorlibd.lib(vccorlib110d.DLL)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\msvcprtd.lib:
+               Found "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (__imp_?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Swap_all(struct std::_Container_base12 &)" (__imp_?_Swap_all@_Container_base12@std@@QAEXAAU12@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xbad_function_call(void)" (__imp_?_Xbad_function_call@std@@YAXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::locale::id::id(unsigned int)" (__imp_??0id@locale@std@@QAE@I@Z)
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+                 Referenced in pch.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found __IMPORT_DESCRIPTOR_MSVCP110D
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found MSVCP110D_NULL_THUNK_DATA
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\MSVCRTD.lib:
+               Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___aligned_malloc
+                 Referenced in AppDelegate.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found @__security_check_cookie@4
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(secchk.obj)
+               Found __RTC_CheckEsp
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(stack.obj)
+               Found __RTC_InitBase
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(init.obj)
+               Found ___CxxFrameHandler3
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(ti_inst.obj)
+               Found ___security_cookie
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in AppDelegate.obj
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(gs_cookie.obj)
+               Found __CxxThrowException@8
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __fltused
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in cocos2dorig.obj
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Loaded MSVCRTD.lib(dllsupp.obj)
+               Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in MSVCRTD.lib(ti_inst.obj)
+                 Loaded MSVCRTD.lib(ehvecdtr.obj)
+               Found __purecall
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___invalid_parameter
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _memset
+                 Referenced in vccorlibd.lib(__Platform__memset.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in HelloWorldScene.obj
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::exception::exception(void)" (__imp_??0exception@std@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) void __cdecl __ExceptionPtrCreate(void *)" (__imp_?__ExceptionPtrCreate@@YAXPAX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) void __cdecl __ExceptionPtrDestroy(void *)" (__imp_?__ExceptionPtrDestroy@@YAXPAX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) void __cdecl __ExceptionPtrCopy(void *,void const *)" (__imp_?__ExceptionPtrCopy@@YAXPAXPBX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) void __cdecl __ExceptionPtrCurrentException(void *)" (__imp_?__ExceptionPtrCurrentException@@YAXPAX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___CrtDbgReportW
+                 Referenced in HelloWorldScene.obj
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: static void __cdecl Concurrency::details::_CurrentScheduler::_ScheduleTask(void (__cdecl*)(void *),void *)" (__imp_?_ScheduleTask@_CurrentScheduler@details@Concurrency@@SAXP6AXPAX@Z0@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall Concurrency::invalid_operation::invalid_operation(void)" (__imp_??0invalid_operation@Concurrency@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall Concurrency::critical_section::scoped_lock::scoped_lock(class Concurrency::critical_section &)" (__imp_??0scoped_lock@critical_section@Concurrency@@QAE@AAV12@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: __thiscall Concurrency::critical_section::scoped_lock::~scoped_lock(void)" (__imp_??1scoped_lock@critical_section@Concurrency@@QAE@XZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall Concurrency::event::set(void)" (__imp_?set@event@Concurrency@@QAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)" (__imp_?_Cancel@_CancellationTokenState@details@Concurrency@@QAEXXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall Concurrency::details::_CancellationTokenState::_RegisterCallback(class Concurrency::details::_CancellationTokenRegistration *)" (__imp_?_RegisterCallback@_CancellationTokenState@details@Concurrency@@QAEXPAV_CancellationTokenRegistration@23@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall Concurrency::details::_TaskCollection::_Schedule(class Concurrency::details::_UnrealizedChore *)" (__imp_?_Schedule@_TaskCollection@details@Concurrency@@QAEXPAV_UnrealizedChore@23@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: enum Concurrency::details::_TaskCollectionStatus __stdcall Concurrency::details::_TaskCollection::_RunAndWait(class Concurrency::details::_UnrealizedChore *)" (__imp_?_RunAndWait@_TaskCollection@details@Concurrency@@QAG?AW4_TaskCollectionStatus@23@PAV_UnrealizedChore@23@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) private: static unsigned int & __cdecl Concurrency::details::_StackGuard::_GetCurrentInlineDepth(void)" (__imp_?_GetCurrentInlineDepth@_StackGuard@details@Concurrency@@CAAAIXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "__declspec(dllimport) public: static class Concurrency::details::_AsyncTaskCollection * __cdecl Concurrency::details::_AsyncTaskCollection::_NewCollection(class Concurrency::details::_CancellationTokenState *)" (__imp_?_NewCollection@_AsyncTaskCollection@details@Concurrency@@SAPAV123@PAV_CancellationTokenState@23@@Z)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+                 Referenced in HelloWorldScene.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _atexit
+                 Referenced in pch.obj
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded MSVCRTD.lib(atonexit.obj)
+               Found _memcpy
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _strlen
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp__memmove
+                 Referenced in pch.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _WinMainCRTStartup
+                 Loaded MSVCRTD.lib(crtexew.obj)
+               Found __imp__wcslen
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp__wcscmp
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __IMPORT_DESCRIPTOR_MSVCR110D
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___report_gsfailure
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Loaded MSVCRTD.lib(gs_report.obj)
+               Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Referenced in MSVCRTD.lib(stack.obj)
+                 Loaded MSVCRTD.lib(error.obj)
+               Found __RTC_SetErrorFuncW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(userapi.obj)
+               Found __CRT_RTC_INITW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+                 Referenced in MSVCRTD.lib(ti_inst.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+                 Referenced in MSVCRTD.lib(ehvecdtr.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __except_handler4
+                 Referenced in MSVCRTD.lib(ehvecdtr.obj)
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded MSVCRTD.lib(chandler4gs.obj)
+               Found __lock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __unlock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___calloc_dbg
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___dllonexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___onexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___CxxSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(unhandld.obj)
+               Found __XcptFilter
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtGetShowWindowMode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __amsg_exit
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __setargv
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(dllargv.obj)
+               Found __imp____getmainargs
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp____set_app_type
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___CrtSetCheckCount
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __IsNonwritableInCurrentImage
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(pesect.obj)
+               Found __imp__exit
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___exit
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___cexit
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___security_init_cookie
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(gs_support.obj)
+               Found __matherr
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(merr.obj)
+               Found __imp___ismbblead
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __RTC_Initialize
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(initsect.obj)
+               Found __imp___configthreadlocale
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __setdefaultprecision
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(fp8.obj)
+               Found __imp____setusermatherr
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __initterm_e
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __initterm
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___globallocalestatus
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(xthdloc.obj)
+               Found __commode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(xncommod.obj)
+               Found __dowildcard
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(wildcard.obj)
+               Found __newmode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(_newmode.obj)
+               Found __imp___acmdln
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___native_startup_state
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(natstart.obj)
+               Found __fmode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(xtxtmode.obj)
+               Found __imp___fmode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___commode
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___xi_a
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded MSVCRTD.lib(cinitexe.obj)
+         Processed /DEFAULTLIB:windowsphonecore.lib
+          Processed /DISALLOWLIB:libcmt.lib
+          Processed /DISALLOWLIB:libcmtd.lib
+          Processed /DISALLOWLIB:msvcrt.lib
+               Found MSVCR110D_NULL_THUNK_DATA
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __crt_debugger_hook
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtUnhandledException
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtTerminateProcess
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded MSVCRTD.lib(pdblkup.obj)
+               Found _sprintf_s
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __except_handler4_common
+                 Referenced in MSVCRTD.lib(chandler4gs.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(unhandld.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __invoke_watson
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __controlfp_s
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _wcscpy_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __wmakepath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __wsplitpath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\OLDNAMES.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\freetype.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxguid.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\xaudio2.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxgi.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\d3d11.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\zlib.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libjpeg.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libpng.lib:
+             Searching ..\Win32\Debug\Cocos2dWindowsPhone\Cocos2dWindowsPhone.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\WindowsPhoneCore.lib:
+               Found __imp__CoCreateFreeThreadedMarshaler@8
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __imp__CoTaskMemAlloc@4
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __imp__CoTaskMemFree@4
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-com-l1-1-0.dll)
+               Found __imp__DecodePointer@4
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+               Found __imp__ReleaseSRWLockExclusive@4
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+               Found __imp__AcquireSRWLockExclusive@4
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+               Found __imp__InterlockedCompareExchange@12
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-interlocked-l1-2-0.dll)
+               Found __imp__EncodePointer@4
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+               Found __imp__IsDebuggerPresent@0
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-debug-l1-1-1.dll)
+               Found _IsProcessorFeaturePresent@4
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+               Found __imp__RaiseException@16
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+               Found __imp__MultiByteToWideChar@24
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+               Found __imp__WideCharToMultiByte@32
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+               Found __imp__GetCurrentThreadId@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+               Found __imp__GetSystemTimeAsFileTime@4
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+               Found __imp__GetTickCount64@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+               Found __imp__GetLastError@0
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+               Found __imp__HeapAlloc@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+               Found __imp__HeapFree@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+               Found __imp__GetProcessHeap@0
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+               Found __imp__VirtualQuery@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-memory-l1-1-1.dll)
+               Found __imp__FreeLibrary@4
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found __imp__GetModuleFileNameW@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found __imp__GetModuleHandleW@4
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found __imp__GetProcAddress@8
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found __imp__LoadLibraryExW@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-util-l1-1-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-synch-l1-2-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-interlocked-l1-2-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-interlocked-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-interlocked-l1-2-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-debug-l1-1-1
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-debug-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-debug-l1-1-1.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-processthreads-l1-1-1
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-errorhandling-l1-1-1
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-string-l1-1-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-sysinfo-l1-2-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-heap-l1-2-0
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-memory-l1-1-1
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-memory-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-memory-l1-1-1.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-libraryloader-l1-1-1
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+               Found api-ms-win-core-util-l1-1-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-util-l1-1-0.dll)
+               Found api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-synch-l1-2-0.dll)
+               Found api-ms-win-core-interlocked-l1-2-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-interlocked-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-interlocked-l1-2-0.dll)
+               Found api-ms-win-core-debug-l1-1-1_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-debug-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-debug-l1-1-1.dll)
+               Found api-ms-win-core-processthreads-l1-1-1_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-processthreads-l1-1-1.dll)
+               Found api-ms-win-core-errorhandling-l1-1-1_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-errorhandling-l1-1-1.dll)
+               Found api-ms-win-core-string-l1-1-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-string-l1-1-0.dll)
+               Found api-ms-win-core-sysinfo-l1-2-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-sysinfo-l1-2-0.dll)
+               Found api-ms-win-core-heap-l1-2-0_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-heap-l1-2-0.dll)
+               Found api-ms-win-core-memory-l1-1-1_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-memory-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-memory-l1-1-1.dll)
+               Found api-ms-win-core-libraryloader-l1-1-1_NULL_THUNK_DATA
+                 Referenced in WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+                 Loaded WindowsPhoneCore.lib(api-ms-win-core-libraryloader-l1-1-1.dll)
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\RuntimeObject.lib:
+               Found _WindowsCreateString@12
+                 Referenced in vccorlibd.lib(__Platform__WindowsCreateString@12.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsDeleteString@4
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(__Platform__WindowsDeleteString@4.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsDuplicateString@8
+                 Referenced in vccorlibd.lib(init.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(__Platform__WindowsDuplicateString@8.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsGetStringLen@4
+                 Referenced in vccorlibd.lib(__Platform__WindowsGetStringLen@4.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsGetStringRawBuffer@8
+                 Referenced in vccorlibd.lib(__Platform__WindowsGetStringRawBuffer@8.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsIsStringEmpty@4
+                 Referenced in vccorlibd.lib(__Platform__WindowsIsStringEmpty@4.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsCompareStringOrdinal@12
+                 Referenced in vccorlibd.lib(__Platform__WindowsCompareStringOrdinal@12.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found _WindowsConcatString@12
+                 Referenced in vccorlibd.lib(__Platform__WindowsConcatString@12.obj)
+                 Referenced in vccorlibd.lib(tmmta.obj)
+                 Referenced in vccorlibd.lib(compiler.obj)
+                 Referenced in vccorlibd.lib(activation.obj)
+                 Referenced in vccorlibd.lib(init.obj)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found __IMPORT_DESCRIPTOR_api-ms-win-core-winrt-string-l1-1-0
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+               Found api-ms-win-core-winrt-string-l1-1-0_NULL_THUNK_DATA
+                 Referenced in RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+                 Loaded RuntimeObject.lib(api-ms-win-core-winrt-string-l1-1-0.dll)
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\PhoneAppModelHost.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\vccorlibd.lib:
+               Found _WinMain@16
+                 Referenced in MSVCRTD.lib(crtexew.obj)
+                 Loaded vccorlibd.lib(winmain.obj)
+               Found "int __cdecl _main(void)" (?_main@@YAHXZ)
+                 Referenced in vccorlibd.lib(winmain.obj)
+                 Loaded vccorlibd.lib(climain.obj)
+               Found "wchar_t * * __cdecl Platform::Details::GetCmdArguments(int *)" (?GetCmdArguments@Details@Platform@@YAPAPA_WPAH@Z)
+                 Referenced in vccorlibd.lib(climain.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+               Found "public: __cdecl Platform::NullReferenceException::NullReferenceException(void)" (??0NullReferenceException@Platform@@Q$AAA@XZ)
+                 Referenced in vccorlibd.lib(climain.obj)
+                 Loaded vccorlibd.lib(vccorlib110d.DLL)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\OLDNAMES.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\freetype.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxguid.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\xaudio2.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\dxgi.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\d3d11.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\zlib.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libjpeg.lib:
+             Searching ..\Cocos2dWindowsPhone\libraries\x86\libpng.lib:
+             Searching ..\Win32\Debug\Cocos2dWindowsPhone\Cocos2dWindowsPhone.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\WindowsPhoneCore.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\RuntimeObject.lib:
+             Searching C:\Program Files (x86)\Windows Phone Kits\8.0\lib\x86\PhoneAppModelHost.lib:
+         
+         Finished searching libraries
+         
+         Finished pass 1
+         
+         Merging metadata
+         Finished merging metadata
+         HelloWorld.vcxproj -> C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\Win32\Debug\HelloWorld\HelloWorld.exe
+       XapPackager:
+         Begin Xap packaging
+         Creating file _Debug_Win32.xap
+         Adding WMAppManifest.xml
+         Adding HelloWorld.exe
+         Adding cocos2d.winmd
+         Adding CocosDenshion.winmd
+         Adding Cocos2dWindowsPhone.dll
+         Adding CocosDenshionWindowsPhone.dll
+         Adding Assets\ApplicationIcon.png
+         Adding Assets\HelloWorld.png
+         Adding SplashScreenImage.jpg
+         Adding Assets\Tiles\FlipCycleTileLarge.png
+         Adding Assets\Tiles\FlipCycleTileMedium.png
+         Adding Assets\Tiles\FlipCycleTileSmall.png
+         Adding Assets\Tiles\IconicTileMediumLarge.png
+         Adding Assets\Tiles\IconicTileSmall.png
+         Adding CCDrawingPixelShader.cso
+         Adding CCDrawingVertexShader.cso
+         Adding CCGridPixelShader.cso
+         Adding CCGridVertexShader.cso
+         Adding CCLayerColorPixelShader.cso
+         Adding CCLayerColorVertexShader.cso
+         Adding CCParticlePixelShader.cso
+         Adding CCParticleVertexShader.cso
+         Adding CCProgressTimerPixelShader.cso
+         Adding CCProgressTimerVertexShader.cso
+         Adding CCSpritePixelShader.cso
+         Adding CCSpriteVertexShader.cso
+         Adding CCTexture2DPixelShader.cso
+         Adding CCTexture2DVertexShader.cso
+         Adding CCTextureAtlasPixelShader.cso
+         Adding CCTextureAtlasVertexShader.cso
+         Adding CCDrawingPixelShader.cso
+         Adding CCDrawingVertexShader.cso
+         Adding CCGridPixelShader.cso
+         Adding CCGridVertexShader.cso
+         Adding CCLayerColorPixelShader.cso
+         Adding CCLayerColorVertexShader.cso
+         Adding CCParticlePixelShader.cso
+         Adding CCParticleVertexShader.cso
+         Adding CCProgressTimerPixelShader.cso
+         Adding CCProgressTimerVertexShader.cso
+         Adding CCSpritePixelShader.cso
+         Adding CCSpriteVertexShader.cso
+         Adding CCTexture2DPixelShader.cso
+         Adding CCTexture2DVertexShader.cso
+         Adding CCTextureAtlasPixelShader.cso
+         Adding CCTextureAtlasVertexShader.cso
+         Xap packaging completed successfully
+     1>Done Building Project "C:\Users\jianhliu\Desktop\cocos2d-x-3.0alpha0\cocos2d-x-3.0alpha0\samples\Cpp\Cocos2dx-2.1.0-wp8-2.0-alpha\HelloWorld\HelloWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.58
